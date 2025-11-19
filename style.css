@@ -1,0 +1,359 @@
+body {
+  background-color: darkgray;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  background-color: beige;
+
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  display: block;
+  color: blueviolet;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: blanchedalmond;
+  border-radius: 5px;
+}
+
+
+nav ul li {
+  float: left;
+  border-right: 1px solid #bbbbbb;
+}
+
+.hero-section {
+  background-color: rgb(115, 97, 131);
+  /* width: 200px; 
+ height: 200px;  */
+  padding-top: 5px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-left: 0;
+  margin-right: 0;
+
+  /* grid-template-columns: repeat(3 1fr); */
+}
+
+.hero-text {
+  text-align: left;
+  font-style: oblique;
+  top: 50%;
+  left: 50%;
+  color: white;
+  font-size: x-large;
+  text-justify: distribute;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.hero-image {
+  height: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+
+.content-section {
+  background-color: beige;
+  /* width: 200px; 
+ height: 200px;  */
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  margin-left: 0;
+  margin-right: 0;
+  font-size: large;
+  color: blueviolet;
+}
+
+.our-story {
+
+  text-align: left;
+
+}
+
+.cake-designs {
+  padding: 0;
+  margin: 0;
+}
+
+.cupcakes {
+  padding: 0;
+  margin: 0;
+}
+
+.footer-section {
+  background-color: rgb(115, 97, 131);
+  color: beige;
+  font-size: large;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  margin-left: 0;
+  margin-right: 0;
+  column-fill: balance;
+}
+
+.quick-links ol li {
+  display: block;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+  list-style-type: none;
+
+}
+
+.contact-info ol li {
+  display: block;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.fa-facebook {
+  font-size: 40px;
+  color: blue;
+}
+
+.fa-instagram {
+  font-size: 40px;
+  color: palevioletred;
+}
+
+.fa-pinterest-p {
+  font-size: 40px;
+  color: red;
+}
+
+.fa-square-youtube {
+  font-size: 40px;
+  color: red;
+}
+
+.fa-envelope {
+  font-size: 30px;
+  color: red;
+}
+
+.fa-globe {
+  font-size: 30px;
+  color: black;
+}
+
+.fa-phone {
+  font-size: 30px;
+  color: black;
+}
+
+.fa-whatsapp {
+  font-size: 30px;
+  color: green;
+}
+
+.other-info {
+  display: block;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.content-section2 {
+  background-color: rgb(115, 97, 131);
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.learnmore ol li {
+  text-decoration: dotted;
+  text-align: left;
+  color: blueviolet;
+}
+
+.images {
+  background-color: beige;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+/* about us page */
+.about-hero-section {
+  background-color: rgb(115, 97, 131);
+  padding-top: 5px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-left: 0;
+  margin-right: 0;
+
+  
+}
+
+.about-hero-text {
+  text-align: left;
+  top: 50%;
+  left: 50%;
+  color: white;
+  font-size: x-large;
+  font-style: oblique;
+  text-justify: distribute;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.about-hero-image {
+  height: 80%;
+}
+
+.about-content-section {
+  background-color: beige;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 10px;
+  margin-left: 0;
+  margin-right: 0;
+  font-size: large;
+  color: blueviolet;
+}
+
+.why-us ol li {
+  display: block;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: dotted;
+
+}
+
+.about-content-section2 {
+  background-color: rgb(115, 97, 131);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 10px;
+  margin-left: 0;
+  margin-right: 0;
+  font-size: large;
+  color: beige;
+}
+
+.about-learnmore ol li {
+  display: block;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: dotted;
+}
+/* products page */
+.product-content-section {
+  background-color: beige;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  column-gap: 10px;
+  margin-left: 0;
+  margin-right: 0;
+  font-size: large;
+  color: blueviolet;
+}
+.product-content-section ul li {
+list-style-type: disc;
+
+}
+.product-content-section2 {
+  background-color:rgb(115, 97, 131); 
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 20px;
+  color: bisque;
+}
+.product-gallery {
+  background-color: beige;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+}
+.gallery {
+  display: grid;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+}
+.contactus-section{
+  background-color: beige;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 20px;
+}
+.name{
+  width: 90%;
+  height: 350px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+}
+
+button {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  cursor: pointer;
+}
