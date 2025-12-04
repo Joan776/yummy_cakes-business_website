@@ -107,19 +107,33 @@ nav ul li {
 }
 
 .cake-designs {
-  padding: 0;
-  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .cupcakes {
-  padding: 0;
-  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.cakes {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .footer-section {
   background-color: rgb(115, 97, 131);
   color: beige;
-  font-size: large;
+  font-size: larger;
   padding-top: 5px;
   padding-bottom: 10px;
   padding-left: 5px;
@@ -222,7 +236,7 @@ nav ul li {
   margin-left: 0;
   margin-right: 0;
 
-  
+
 }
 
 .about-hero-text {
@@ -241,6 +255,9 @@ nav ul li {
 
 .about-hero-image {
   height: 80%;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .about-content-section {
@@ -265,6 +282,20 @@ nav ul li {
 
 }
 
+.about-gallery{
+ padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  margin-left: 0;
+  margin-right: 0;
+}
+.about-gallery2 {
+ padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  margin-left: 0;
+  margin-right: 0;
+}
 .about-content-section2 {
   background-color: rgb(115, 97, 131);
   padding-top: 10px;
@@ -285,6 +316,7 @@ nav ul li {
   padding: 14px 16px;
   text-decoration: dotted;
 }
+
 /* products page */
 .product-content-section {
   background-color: beige;
@@ -300,12 +332,14 @@ nav ul li {
   font-size: large;
   color: blueviolet;
 }
+
 .product-content-section ul li {
-list-style-type: disc;
+  list-style-type: disc;
 
 }
+
 .product-content-section2 {
-  background-color:rgb(115, 97, 131); 
+  background-color: rgb(115, 97, 131);
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 5px;
@@ -314,19 +348,22 @@ list-style-type: disc;
   column-gap: 20px;
   color: bisque;
 }
+
 .product-gallery {
   background-color: beige;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 5px;
 }
+
 .gallery {
   display: grid;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 5px;
 }
-.contactus-section{
+
+.contactus-section {
   background-color: beige;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -335,14 +372,15 @@ list-style-type: disc;
   grid-template-columns: auto auto auto;
   column-gap: 20px;
 }
-.name{
-  width: 90%;
-  height: 350px;
-  padding: 12px 20px;
+
+.name {
+  width: 95%;
+  height: 400px;
+  padding: 10px 10px;
   box-sizing: border-box;
   border: 2px solid #ccc;
   border-radius: 4px;
-  background-color: #f8f8f8;
+  background-color: rgb(115, 97, 131);
   resize: none;
 }
 
@@ -356,4 +394,40 @@ button {
   display: inline-block;
   font-size: 18px;
   cursor: pointer;
+}
+/* responsive styling */
+
+/* -------------------------------------- */
+/* . MEDIA QUERIES */
+/* -------------------------------------- */
+
+/* Tablets (min-width: 600px) */
+@media (min-width: 600px) {
+  nav ul {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Laptops (min-width: 900px) */
+@media (min-width: 900px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .hero {
+    padding: 6rem 1rem;
+    text-align: left;
+  }
+}
+
+/* Large Screens (min-width: 1200px) */
+@media (min-width: 1200px) {
+  .grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
